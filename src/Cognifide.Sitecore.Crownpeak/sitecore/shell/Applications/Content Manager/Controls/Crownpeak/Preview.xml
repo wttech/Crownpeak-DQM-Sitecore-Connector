@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<control xmlns:def="Definition">
+  <Crownpeak.Preview>
+
+    <Stylesheet>
+      .resultHeader {
+      padding: 0px 15px;
+      height: 95px;
+      background-color: white
+      }
+
+      .resultHeaderTitle {
+      display: inline;
+      font-size: 18px;
+      white-space: nowrap;
+      padding: 5px 15px;
+      line-height: 32px;
+      }
+    </Stylesheet>
+
+    <script type="text/javascript">
+      function scGetFrameValue(value, request) {
+        var frame = scForm.browser.getFrameElement(window);
+
+        if (request.parameters == "contenteditor:save") {
+          window.location.reload(false);
+        }
+
+        return null;
+      }
+    </script>
+
+    <GridPanel ID="PreviewResult" Width="100%" Height="100%" Style="display:none">
+      <Border ID="PreviewHeader" Class="resultHeader">
+        <Image Src="/Content/crownpeak/Long-Header.png" Height="95"/>
+      </Border>
+      <Border ID="PreviewStatus" Class="scWarning scMessageBar"></Border>
+      <Border ID="PreviewContainer" Height="100%" GridPanel.Height="100%" Padding="0px !important" Border="none">
+        <Border ID="Success" Style="display: none" >
+          <div style="margin: 0 auto;width:50%">
+            <img src="/sitecore/shell/applications/content manager/editors/crownpeak/assets/ok.png" style="display: block;margin: 0 auto;height:100px;font-size:50px" />
+            <div style="font-size:20px;text-align:center">No errors were found on the page</div>
+          </div>
+        </Border>
+      </Border>
+
+    </GridPanel>
+  </Crownpeak.Preview>
+</control>

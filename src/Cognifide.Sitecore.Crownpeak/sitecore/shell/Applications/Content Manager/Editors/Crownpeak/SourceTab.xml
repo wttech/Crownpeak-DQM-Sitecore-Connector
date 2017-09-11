@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<control xmlns:def="Definition">
+  <Crownpeak.SourceTab>
+    <FormDialog  Header="Crownpeak DQM - Source" CancelButton="false">
+      <CodeBeside Type="Cognifide.Sitecore.Crownpeak.UI.SourceTab, Cognifide.Sitecore.Crownpeak"/>
+      <script language="javascript">
+        scForm.browser.attachEvent(window, 'onload', function() { scForm.invoke('source:start'); });
+      </script>
+
+      <GridPanel ID="Progress" Width="100%">
+        <Space Height="64"/>
+        <Border Align="center" GridPanel.Align="center">
+          <ThemedImage Src="/Content/crownpeak/32x32/crownpeak.png" Width="32" Height="32" GridPanel.Align="center"/>
+        </Border>
+        <Space Height="16"/>
+        <Border Align="center" GridPanel.Align="center">
+          <ThemedImage Src="Images/progress.gif" Width="94" Height="17"/>
+        </Border>
+        <Space Height="16"/>
+        <Border Align="center" GridPanel.Align="center" GridPanel.Style="font-weight:bold">
+          <Literal ID="Indicator" Text="Validating..."/>
+        </Border>
+      </GridPanel>
+
+      <GridPanel ID="Result" Width="100%" Height="100%" Style="display:none">
+        <Border ID="Status" Class="scWarning"></Border>
+        <Border ID="Container" Height="100%" GridPanel.Height="100%" Padding="0px" Border="none"></Border>
+      </GridPanel>
+
+    </FormDialog>
+  </Crownpeak.SourceTab>
+
+</control>
