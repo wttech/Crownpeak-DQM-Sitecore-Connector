@@ -6,7 +6,7 @@
 
 Crownpeak DQM Sitecore connector builds Digital Quality Management directly into your publication workflow, closing the gap between content authoring and digital quality assurance. So your digital marketing team can test and optimize content without ever leaving the Sitecore environment.
 
-Organizations with multiple websites, multiple channels and globally-distributed digital teams need control over the quality and consistency of every digital touchpoint.  Otherwise, issues ranging from broken links to outdated content or SEO errors can go undetected, and become serious and costly -- or worse, compromise the integrity of your brand and put your organization at risk. 
+Organizations with multiple websites, multiple channels and globally-distributed digital teams need control over the quality and consistency of every digital touchpoint. Otherwise, issues ranging from broken links to outdated content or SEO errors can go undetected, and become serious and costly -- or worse, compromise the integrity of your brand and put your organization at risk. 
 
 Crownpeak DQM protects your brand and your organization by crawling your site and identifying issues based on a set of best practice checkpoints as well your own customizable list.
 
