@@ -10,28 +10,31 @@ Organizations with multiple websites, multiple channels and globally-distributed
 
 Crownpeak DQM protects your brand and your organization by crawling your site and identifying issues based on a set of best practice checkpoints as well your own customizable list.
 
-Learn more about the detailed features of the product and why the world’s top brands rely on the leading SaaS solution for digital governance, Crownpeak DQM.
+Learn more about the detailed features of the product and why the world’s top brands rely on the leading SaaS solution for digital governance, [Crownpeak DQM](https://www.crownpeak.com/products/digital-quality-management/).
 
 ## Requirements
 
-* Sitecore  8.2
-* Visual Studio 2017
+* Sitecore XP 8.2
+* Crownpeak DQM
 
-## Deployment
+## Installation
 
-Conventional deployment requires two steps:
+1. Download Sitecore Crownpeak Connector zip package.
+2. Log in to Sitecore, go to Control Panel and run Install a package.
+3. Upload the package and follow wizard steps to complete installation.
+4. Obtain API key and website ID from Crownpeak.
+5. Modify /App_Config/Include/Cognifide.Crownpeak.config file by entering your API key and website ID.
 
-1. Deploy project using publish feature in Visual Studio
-2. Run [Unicorn](https://github.com/kamsar/Unicorn) synchronization
+## Development
 
-Creating Sitecore package
+The connector consists of configuration, code and Sitecore items. Use Visual Studio 2017 IDE to modify connector code and configuration. Deploy your changes to Sitecore instance using publish feature in Visual Studio. Connector items can be synced between the repository and Sitecore instance using [Unicorn](https://github.com/kamsar/Unicorn).
 
-1. Install [Sitecore Powershell Extensions](https://marketplace.sitecore.net/en/Modules/Sitecore_PowerShell_console.aspx)
-2. Run `CreatePackage.ps1` file in Powerhshell ISE
-3. Download created package
+Remember to regenerate Sitecore package after each iteration using the following steps:
+
+1. Install [Sitecore PowerShell Extensions](https://marketplace.sitecore.net/en/Modules/Sitecore_PowerShell_console.aspx) module.
+2. Run `CreatePackage.ps1` file in PowerhShell ISE.
+3. Download created package and include it in your pull request.
 
 ## License
 
 **Crownpeak DQM Sitecore Connector** is licensed under the [Apache License, Version 2.0 (the "License")](https://www.apache.org/licenses/LICENSE-2.0.txt)
-
-
