@@ -1,6 +1,6 @@
 ![Cognifide logo](docs/Logo.png)
 
-[![Apache License, Version 2.0, January 2004](https://img.shields.io/github/license/Cognifide/gradle-aem-plugin.svg?label=License)](http://www.apache.org/licenses/)
+[![][license img]][license]
 
 # Crownpeak DQM Sitecore Connector
 
