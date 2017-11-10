@@ -40,3 +40,6 @@ Remember to regenerate Sitecore package after each iteration using the following
 ## License
 
 **Crownpeak DQM Sitecore Connector** is licensed under the [Apache License, Version 2.0 (the "License")](https://www.apache.org/licenses/LICENSE-2.0.txt)
+
+[license]:https://github.com/Cognifide/Crownpeak-DQM-Sitecore-Connector/blob/master/LICENSE
+[license img]:https://img.shields.io/badge/License-Apache%202.0-blue.svg
