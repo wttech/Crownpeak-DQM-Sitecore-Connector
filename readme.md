@@ -1,4 +1,4 @@
-![Cognifide logo](docs/Logo.png)
+![Wunderman Thompson Technology logo](docs/Logo.png)
 
 [![][license img]][license]
 
@@ -12,7 +12,7 @@ Crownpeak DQM protects your brand and your organization by crawling your site an
 
 Learn more about the detailed features of the product and why the world’s top brands rely on the leading SaaS solution for digital governance, [Crownpeak DQM](https://www.crownpeak.com/products/digital-quality-management/).
 
-The Crownpeak DQM Sitecore Connector has been developed by [Cognifide](http://www.cognifide.com/), a WPP digital technology consultancy. Cognifide is a Sitecore Platinum Implementation Partner and the creators of the Sitecore Experience Accelerator (SXA). 
+The Crownpeak DQM Sitecore Connector has been developed by [Wunderman Thompson Technology](https://www.wundermanthompson.com/service/technology) (formerly Cognifide).
 
 ## Requirements
 
@@ -41,5 +41,5 @@ Remember to regenerate Sitecore package after each iteration using the following
 
 **Crownpeak DQM Sitecore Connector** is licensed under the [Apache License, Version 2.0 (the "License")](https://www.apache.org/licenses/LICENSE-2.0.txt)
 
-[license]:https://github.com/Cognifide/Crownpeak-DQM-Sitecore-Connector/blob/master/LICENSE
+[license]:https://github.com/wttech/Crownpeak-DQM-Sitecore-Connector/blob/master/LICENSE
 [license img]:https://img.shields.io/badge/License-Apache%202.0-blue.svg
